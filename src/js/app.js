@@ -71,7 +71,7 @@ window.onload = function() {
     city: null
   };
   render(window.variables); // render the card for the first time
-
+  console.log(window.variables);
   document.querySelectorAll(".picker").forEach(function(elm) {
     elm.addEventListener("change", function(e) {
       // <- add a listener to every input
