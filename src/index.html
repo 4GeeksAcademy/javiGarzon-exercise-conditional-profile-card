@@ -4,11 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hello Rigo with Vanilla.js</title>
-    <link rel="shortcut icon" href="./assets/img/4geeks.ico" />
-    <script
-      src="https://kit.fontawesome.com/072e5df971.js"
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
       crossorigin="anonymous"
-    ></script>
+    />
+    <link rel="shortcut icon" href="./assets/img/4geeks.ico" />
   </head>
 
   <body>
@@ -32,8 +34,9 @@
       <li>
         <label>S.M. Position</label>
         <select class="picker" for="socialMediaPosition">
-          <option value="position-left">Left</option>
+          <option value="">null</option>
           <option value="position-right">Right</option>
+          <option value="position-left">Left</option>
         </select>
       </li>
       <li>
@@ -71,20 +74,19 @@
           <option value="Toronto">Toronto</option>
         </select>
       </li>
-      <li>
         <label>Country</label>
         <select class="picker" for="country">
           <option value="">null</option>
+          <option value="España">España</option>
+          <option value="Portugal">Portugal</option>
           <option value="USA">USA</option>
-          <option value="Germany">Germany</option>
-          <option value="Canada">Canada</option>
-          <option value="Venezuela">Venezuela</option>
+          <option value="Méjico">Méjico</option>
         </select>
       </li>
     </ul>
     <div id="widget_content"></div>
 
     <!-- do not remove this bundle.js tag -->
-    <script type="text/javascript" src="/main.bundle.js"></script>
+    <script type="text/javascript" src="./bundle.js"></script>
   </body>
 </html>
